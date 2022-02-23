@@ -1,0 +1,6 @@
+rootProject.name = 'ownbank-corporate-api'
+include 'core:domain'
+include 'core:service'
+include 'core:data-provider'
+include 'entrypoint:config'
+include 'entrypoint:client-rest'

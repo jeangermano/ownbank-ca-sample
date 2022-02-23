@@ -1,0 +1,10 @@
+plugins {
+    id 'demo.java-application-conventions'
+}
+
+dependencies {
+    implementation project(':entrypoint:config')
+    implementation project(':core:domain')
+    implementation project(':core:service')
+    implementation project(':core:data-provider')
+}

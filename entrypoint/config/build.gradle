@@ -1,0 +1,12 @@
+plugins {
+    id 'demo.java-application-conventions'
+}
+
+dependencies {
+    implementation project(':core:domain')
+    implementation('org.springframework.boot:spring-boot-starter-web')
+}
+
+bootJar {
+    enabled = false
+}

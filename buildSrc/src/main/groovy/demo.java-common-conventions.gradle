@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+    id 'io.freefair.lombok'
+}
+
+repositories {
+    mavenCentral()
+}
+
+group = 'br.com.ownbank.corporate'
+version = '0.0.1-SNAPSHOT'
+
+dependencies {
+    constraints {
+        implementation 'org.apache.commons:commons-text:1.9'
+    }
+    implementation 'org.apache.commons:commons-lang3:3.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.7.2'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
