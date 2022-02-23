@@ -1,4 +1,4 @@
 plugins {
-    id 'demo.java-library-conventions'
+    id 'java-library-conventions'
 }
 
